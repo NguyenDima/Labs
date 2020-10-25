@@ -7,11 +7,12 @@ int main()
 	system("chcp 1251");
 	system("cls");
 	float a, b, c, d;
-	printf("Введите число: ");
-	scanf_s("%f", &a);
+	a = 2;
+	//printf("Введите число: ");
+	//scanf_s("%f", &a);
 	b = a * a;
 	c = b * b;
 	d = c * c;
-	printf("число^8 = %f", d);
+	//printf("число^8 = %f", d);
 
 }

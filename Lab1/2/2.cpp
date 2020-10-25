@@ -8,7 +8,7 @@ int main()
 	system("cls");
 	double a, b, c;
 	double s, p;
-	printf("\n Введите сторону а:");
+	//printf("\n Введите сторону а:");
 	scanf_s("%lf", &a);
 	system("cls");
 	printf("\n Введите сторону b:");
