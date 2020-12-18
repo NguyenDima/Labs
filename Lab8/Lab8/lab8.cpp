@@ -16,9 +16,10 @@ int main()
 		arr[i] = rand() % 200 - 100;
 	}
 	printf("Массив:\n");
-	for (i = 0; i < SIZE; printf("%3d  ", arr[i++]));
+	for (i = 0; i < SIZE; printf("%4d  ", arr[i++]));
 	putchar('\n');
-
+	putchar('\n');
+    //нахождение среднего
 	for (i = 0; i < SIZE; i++)
 	{
 		if (arr[i] >= 0)
@@ -30,7 +31,7 @@ int main()
 	}
 	aver = sum / k;
 	cout << endl << "Среднее: " << aver << endl;
-	
+	//макс и мин
 	min = 100;
 	max = 0;
 	for (i = 0; i < SIZE; i++)
@@ -49,7 +50,7 @@ int main()
 	}
 	cout << "Макс: " << max << endl;
 	cout << "Мин: " << min << endl << endl;
-
+	//замена
 	for (i = 0; i < SIZE; i++)
 	{
 		if (arr[i] == min)
