@@ -39,22 +39,6 @@ int timSort(int arr[], int size)
 		insertionSort(arr, size);
 	}
 
-	for (int SIZE = RUN; SIZE < size; SIZE = 2 * SIZE)
-	{
-        for (int left = 0; left < size; left += 2 * SIZE)
-		{
-            int mid = left + SIZE - 1;
-			int right = min((left + 2 * SIZE - 1),
-				(size - 1));
-			for (int i = SIZE - 1; i >= 0; i--)
-			{
-				cout << arr[i] << " ";
-
-			}
-			cout << endl;
-
-		}
-	}
 	return 0;
 }
 
